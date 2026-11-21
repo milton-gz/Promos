@@ -1,0 +1,11 @@
+/* Una paleta por grupo, claro y oscuro. Solo variables: el resto vive en base.css
+   acc = color principal · acc2 y acc3 = acentos · edge = bordes y sombras */
+[data-tema=contable]{--bg:#f5efdf;--surf:#fffcf3;--ink:#2b3a2a;--mut:#69775f;--acc:#587553;--soft:#e1e7cf;--acc2:#e2a43b;--acc3:#c0503a;--line:#d8d0b4;--edge:#2b3a2a}
+[data-tema=salud]{--bg:#eef8f5;--surf:#fff;--ink:#183b3a;--mut:#5a7e7b;--acc:#e0634e;--soft:#cfeae4;--acc2:#6fc7b8;--acc3:#f2b84b;--line:#bddfd8;--edge:#183b3a}
+[data-tema=informatica]{--bg:#f3eee4;--surf:#fbf8f1;--ink:#241f1a;--mut:#7a6f62;--acc:#6a4ba8;--soft:#e6dcc9;--acc2:#e89a1f;--acc3:#2f9e8f;--line:#d6cab2;--edge:#241f1a}
+[data-tema=hosteleria]{--bg:#fbf0e3;--surf:#fffaf3;--ink:#3b2316;--mut:#8a6a56;--acc:#b5532f;--soft:#f1d9bd;--acc2:#d4a23a;--acc3:#6b8a3f;--line:#e5cba9;--edge:#3b2316}
+
+[data-modo=dark] [data-tema=contable]{--bg:#1a1f17;--surf:#232a1f;--ink:#ece8d6;--mut:#a3ad95;--acc:#9dbd8f;--soft:#2c3526;--acc2:#e8b04a;--acc3:#e0735c;--line:#39432f;--edge:#6d8a63}
+[data-modo=dark] [data-tema=salud]{--bg:#0f2321;--surf:#163330;--ink:#e3f5f1;--mut:#93bdb7;--acc:#ff8a73;--soft:#1d423e;--acc2:#6fc7b8;--acc3:#f5c35c;--line:#2a5650;--edge:#4f9a90}
+[data-modo=dark] [data-tema=informatica]{--bg:#17131f;--surf:#211b2c;--ink:#efe8f7;--mut:#a99bbb;--acc:#a88be0;--soft:#2b2338;--acc2:#f0a93a;--acc3:#4fc3b2;--line:#3a3050;--edge:#7a63ac}
+[data-modo=dark] [data-tema=hosteleria]{--bg:#231710;--surf:#2e1f16;--ink:#f7e6d4;--mut:#c1a58d;--acc:#e6835d;--soft:#3b281b;--acc2:#e0b04e;--acc3:#9bbd62;--line:#4b3424;--edge:#9a6a4a}
